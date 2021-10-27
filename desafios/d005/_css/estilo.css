@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    text-align: justify;
+    background-color: aliceblue;
+}
+#corpo {
+    background-color: rgb(243, 233, 219);
+    max-width: 600px;
+    margin: auto;
+    margin-top: -1em;
+    padding: 10px;
+}
+#cabecalho h1{
+    text-align: center;
+}
+#cont2 ul{
+    list-style: none;
+}
