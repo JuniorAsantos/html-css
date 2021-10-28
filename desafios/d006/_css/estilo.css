@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#corpo{
+    max-width: 600px;
+    background-color: #f1e3e3;
+    margin: auto;
+    margin-top: -1em;
+    padding: 10px;
+}
+#cont h1{
+    font-size: 2.5em;
+}
+#cont p, ul{
+    font-size: 1.2em;
+}
+#cont abbr{
+    text-decoration: none;
+} 
+#cont ul li {
+    width: 200px;
+    height: 22px;
+}
+#cont ul li:hover {
+    background-color: limegreen;
+}

@@ -11,9 +11,20 @@ body{
     margin-top: -1em;
     padding: 10px;
 }
+#corpo img {
+    margin-left: 1em;
+}
 #cabecalho h1{
     text-align: center;
+    font-size: 2.7em;
+}
+#cont1 h2 {
+    font-size: 2em;
+}
+#cont2 h2 {
+    font-size: 2em;
 }
 #cont2 ul{
     list-style: none;
+    margin: 0px;
 }
