@@ -9,10 +9,22 @@
 <body>
     <h1>Imagem dinámica</h1>
     <p>Tente abrir esse site em vários dispositivos diferentes ouj símplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <h2>Imagens que se adaptam sozinhas</h2>
     <picture>
         <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
         <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="Imagem flexível">
     </picture>
+    <h2>Reproduzindo Áudio</h2>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.
+        <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3.</a>
+        </p>
+    </audio>
+    <!--Compativel com os formatos mp3 wav ogg-->
 </body>
 </html>
