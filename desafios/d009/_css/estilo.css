@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(41, 44, 44);
+}
+#cabecalho {
+    text-align: center;
+    font-size: 20pt;
+    color: white;
+}
+#corpo {
+    width: 700px;
+    margin-left: 379px;
+    
+}
+#cont img {
+    width: 300px;
+}

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+#cont02 {
+    text-align: center;
+}
+#rodape {
+    text-align: center;
+}
+#rodape p a{
+    color: white;
+    text-decoration: none;
+}
