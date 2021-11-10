@@ -37,31 +37,21 @@
             background-color: white;
             padding: 10px;
             margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 0px rgba(0, 0, 0,0.384);
         }
         article {
             position: relative;
             background-color: lightgray;
             padding: 5px;
         }
-        article > p {
-            display: inline-block;
-            width: 400px;
-        }
         article > aside {
             background-color: rgb(165, 165, 165);
-        }
-        article > aside {
-            float: right;
-            height: 100px;
-            width: 200px;
-            margin: 0px;
         }
         aside > p {
             padding: 10px;
         }
-        .limpa {
-            clear: both;
-        }
+      
         footer {
             background-color: black;
             color: white;
@@ -71,6 +61,13 @@
         }
         footer > p {
             margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
         }
     </style>
 </head>
@@ -96,16 +93,15 @@
                 <aside>
                     <p>Artigo escrito por José da Silva</p>
                 </aside>
-                <br id="limpa">
             </article>
             <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio ipsa a expedita voluptates consectetur deleniti quaerat labore sequi consequuntur nisi minus soluta, vitae in, cupiditate eveniet asperiores libero quidem.</p>
+               
             </article>
         </section>
-        <br id="limpa">
     </main>
     <footer>
         <p>Desenvolvido pelo CursoemVideo</p>
     </footer>
+    <div id="bola"></div>
 </body>
 </html>
