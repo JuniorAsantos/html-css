@@ -38,9 +38,11 @@ header {
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
+    text-align: center;
 }
 header > p {
     color: white;
+    text-align: center;
 }
 nav {
     background-color: var(--cor5);
