@@ -50,13 +50,24 @@ main {
     background-color: white;
     max-width: 1000px;
     min-width:  280px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 main h1 {
     color: var(--cor5);
     font-family: var(--fonte-andoid);
 }
-img {
+main img {
     width: 100%;
+}
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 footer {
     color: white;
