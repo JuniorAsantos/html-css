@@ -1,0 +1,9 @@
+@charset 'UTF-8';
+
+td {
+    border: 1px solid #000;
+    border-radius: 3px;
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+}
