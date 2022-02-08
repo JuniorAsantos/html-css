@@ -32,6 +32,11 @@
             background-color: #888;
             color: #fff;
         }
+        .tot {
+            background-color: #888;
+            color: #fff;
+            font-weight: bold; 
+        }
     </style>
     <title>Tabelas</title>
 </head>
@@ -55,7 +60,7 @@
         </thead>
         <tbody>
             <tr>
-                <th rowspan='4'>Exatas</th>
+                <th rowspan='4' scope='rowgroup'>Exatas</th>
                 <td>Matemática</td>
                 <td>0,0</td>
                 <td>0,0</td>
@@ -82,10 +87,10 @@
             </tr>
             <tr>
                 <td class="media"  colspan="4">Média das Exatas</td>
-                <td>0,0</td>
+                <td class="tot">0,0</td>
             </tr>
             <tr>
-                <th rowspan="2">Humanas</th>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
                 <td>Hitória</td>
                 <td>0,0</td>
                 <td>0,0</td>
@@ -99,7 +104,7 @@
             </tr>
             <tr>
                 <td class="media" colspan="4">Média das Humanas</td>
-                <td>0,0</td>
+                <td class="tot">0,0</td>
             </tr>
         </tbody>
         <tfoot>
