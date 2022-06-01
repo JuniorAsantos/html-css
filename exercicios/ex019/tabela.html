@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function formata(){
+            var tabela = document.getElementById('tb_produtos');
+            var nlin = tabela.getElementsByTagName('tr');
+
+            for(l = 1;l < nlin.length;l++){
+                var ncol = nlin[l].getElementsByTagName('td');
+                if(ncol[1].firstChild.nodeValue <= 50){
+                    nlin[l].style.backgroundColor='#ffaaaa';
+                }
+            }
+            
+        }
+        window.onload=formata;
+    </script>
+</head>
+<body>
+    <table width="450" border="1" cellspacing="0" cellpadding="0" id="tb_produtos">
+        <tr bgcolor="#cccccc" id="cabecalho">
+            <td align="center"><strong>Produto</strong></td>
+            <td align="center"><strong>Quantidade</strong></td>
+            <td align="center"><strong>Valor</strong></td>
+        </tr>
+        <tr id="linha1">
+            <td>Mouse</td>
+            <td>100</td>
+            <td>25,00</td>
+        </tr>
+        <tr id="linha2">
+            <td>Teclado</td>
+            <td>50</td>
+            <td>30,00</td>
+        </tr>
+        <tr id="linha3">
+            <td>Monitor</td>
+            <td>85</td>
+            <td>300,00</td>
+        </tr>
+        <tr id="linha4">
+            <td>CPU</td>
+            <td>30</td>
+            <td>450,00</td>
+        </tr>
+    </table>
+</body>
+</html>
