@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        fieldset {
+            width: 200px;
+            background-color:beige;
+            border-radius: 3px;
+            box-shadow: 1px 1px 5px #000;
+        }
+        legend {
+            font-weight: bold;
+            background-color:aliceblue;
+            border-radius: 3px;
+            border: 1px solid rgba(0, 0, 0,0.2);
+            padding: 0px 5px;
+        }
+        .bt {
+            position: relative;
+            top: -5px;
+            left: 50px;
+            background-color: antiquewhite;
+            border: 1px solid ;
+            border-radius: 3px;
+            font-weight: bold;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="sxmas" value="M" checked ><label for="sxmas"> Masculino</label>
+                <input type="radio" name="sexo" id="sxfem" value="F"><label for="sxfem"> Feminino</label>
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Esportes favoritos</legend>
+                <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquet</label><br>
+                <input type="checkbox" name="esfut" id="iesfut" checked > <label for="iesfut">Futebol</label><br>
+                <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label><br>
+                <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tênis</label><br>
+            </fieldset>
+        </p>
+        <p>
+            <input class="bt" type="submit" value="Enviar">
+            <input class="bt" type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
